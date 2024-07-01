@@ -1,0 +1,37 @@
+#plantsExamplesCarrousel {
+	margin: 150px 0;
+}
+
+.carousel-inner {
+	height: 100%;
+	width: 100vw;
+	max-width: $carousel-max-inner-width;
+	max-height: $carousel-max-inner-height;
+}
+
+.carousel-indicators {
+	backdrop-filter: brightness(50%);
+	margin: 0 !important;
+	width: fit-content;
+	left: 50% !important;
+	transform: translate(-50%, 150%);
+}
+
+.carousel-item img {
+	width: unset !important;
+	transform: translate(-50%);
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+	backdrop-filter: brightness(0%);
+	width: $carousel-control-width;
+}
+
+#plantsExamplesCarrousel,
+.carousel-item img,
+.carousel-control-prev,
+.carousel-control-next {
+	height: $carousel-control-height;
+	max-height: $carousel-max-inner-height;
+}

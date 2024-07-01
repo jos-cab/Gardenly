@@ -1,0 +1,6 @@
+@each $heading in $headings {
+	#{$heading},
+	p {
+		cursor: default;
+	}
+}

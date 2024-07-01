@@ -1,0 +1,13 @@
+.home-btn {
+	color: #000;
+	background-color: $hero-primary-color;
+	/*color: #000;
+	background-color: $hero-primary-color;
+	text-decoration: none;
+	border-radius: 3px;
+	padding: 0.25em 0.5em;*/
+}
+
+.home-btn:hover {
+	background-color: $hero-secondary-color;
+}

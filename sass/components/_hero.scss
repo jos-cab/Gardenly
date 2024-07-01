@@ -1,0 +1,44 @@
+.hero {
+	height: 100vh;
+	width: 100%;
+}
+
+.hero-text {
+	color: $hero-primary-color;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.hero-image {
+	height: 100%;
+	background-image: url("../../src/plants-hero.jpg");
+	background-size: cover;
+	background-position: center;
+	filter: brightness(60%);
+}
+
+.hero-icons {
+	width: 100%;
+	display: flex;
+	column-gap: 2vw;
+	justify-content: space-around;
+	position: absolute;
+	bottom: 10%;
+}
+
+.hero-icons a {
+	color: $hero-secondary-color;
+}
+
+/* MQ
+.hero-icons a:hover,
+.hero-icons a:focus {
+	color: $hero-primary-color;
+}*/
+
+.hero-icons i {
+	font-size: 2em;
+}

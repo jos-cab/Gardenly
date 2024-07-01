@@ -1,0 +1,18 @@
+.about-info {
+	display: flex;
+	align-items: center;
+	max-width: 900px;
+	margin: 76px 0 38px;
+}
+
+.about-info img {
+	max-width: 450px;
+}
+
+.about-info-text {
+	min-width: 300px;
+}
+
+.about-info:nth-child(3) {
+	flex-direction: row-reverse;
+}

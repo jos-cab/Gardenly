@@ -1,0 +1,17 @@
+form {
+	background-color: $extra;
+	width: fit-content;
+	padding: 20px;
+	border-radius: 10px;
+	margin: 75px 0;
+}
+
+#comment,
+#email {
+	width: 100%;
+	border-width: 3px;
+}
+
+#comment {
+	resize: none;
+}

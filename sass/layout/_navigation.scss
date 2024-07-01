@@ -1,0 +1,44 @@
+.nav {
+	align-items: center;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1000;
+	margin: 5px;
+}
+
+.nav a {
+	color: $hero-secondary-color;
+}
+
+.nav a::after {
+	content: "";
+	display: block;
+	width: 100%;
+	height: 2px;
+	background-color: $hero-primary-color;
+	transform: scale(0, 1);
+	transition: transform 0.4s;
+}
+
+.active-page {
+	border: 3px solid $hero-secondary-color;
+}
+
+.nav a:hover,
+.nav a:focus {
+	color: $hero-primary-color;
+}
+
+/* MQ
+.nav a:hover::after,
+.nav a:focus::after {
+	transform: scale(1);
+}
+
+
+.active-page:hover,
+.active-page:focus {
+	border: 3px solid $hero-primary-color;
+}
+*/
