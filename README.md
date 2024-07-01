@@ -1,6 +1,7 @@
 # Gardenly
 
 E-comerce project made with Sass and bootstrap
+
 Text was made with AI and pictures were taken from unsplash
 
 ---
@@ -20,3 +21,5 @@ Text was made with AI and pictures were taken from unsplash
 - [ ] Fix carousel
 
 - [ ] Adapt pages titles
+
+- [ ] Fix captcha
