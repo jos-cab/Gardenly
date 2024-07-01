@@ -1,11 +1,17 @@
+.carousel {
+	display: flex;
+	justify-content: center;
+}
+
 #plantsExamplesCarrousel {
-	margin: 150px 0;
+	margin: 150px 0 75px;
+	max-width: 100vw;
 }
 
 .carousel-inner {
 	height: 100%;
-	width: 100vw;
-	max-width: $carousel-max-inner-width;
+	width: 100%;
+	max-width: 95vw;
 	max-height: $carousel-max-inner-height;
 }
 

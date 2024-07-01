@@ -1,50 +1,81 @@
-/*@media (orientation: portrait){
-    #plantsExamplesCarrousel { width: 90vw; }
-    .carousel-inner { height: 50vh; }
+@media (orientation: landscape) {
+	.nav a:hover::after,
+	.nav a:focus::after {
+		transform: scale(1);
+	}
+
+	.active-page:hover,
+	.active-page:focus {
+		border: 3px solid $hero-primary-color;
+	}
+
+	.hero-icons a:hover,
+	.hero-icons a:focus {
+		color: $hero-primary-color;
+	}
+
+	.hero-icons {
+		width: unset !important;
+		left: 30px;
+		column-gap: 30px !important;
+	}
+
+	.hero-icons i {
+		font-size: 1.75em !important;
+	}
+
+	.categories {
+		max-width: 1024px;
+	}
+
+	.card:nth-child(1) {
+		grid-column: 1/3;
+		grid-row: 1;
+	}
+	.card:nth-child(2) {
+		grid-column: 3/5;
+		grid-row: 1/3;
+	}
+	.card:nth-child(3) {
+		grid-column: 5/7;
+		grid-row: 1/4;
+	}
+	.card:nth-child(4) {
+		grid-column: 1/4;
+		grid-row: 4/6;
+	}
+	.card:nth-child(5) {
+		grid-column: 4/7;
+		grid-row: 4/6;
+	}
+
+	.card-img-overlay:hover {
+		color: #000;
+		background-color: #ffffff66;
+	}
+
+	.card:hover .card-img {
+		transform-origin: center;
+		transform: translate(-50%, -50%) scale(1.2);
+	}
+
+	.carousel-control-prev {
+		left: -$carousel-control-width;
+	}
+
+	.carousel-control-next {
+		right: -$carousel-control-width;
+	}
+
+	.carousel-inner {
+		max-width: 768px !important;
+	}
+
+	#plantsExamplesCarrousel {
+		width: calc(100% - 2 * $carousel-control-width) !important;
+	}
+
+	.call-to-action .btn:hover {
+		text-decoration: underline;
+	}
 }
-
-@media (min-height: 750px) and (max-width: 350px){
-    //hero
-    .hero-text h1 { font-size: 10vw; }
-    .hero-text p { font-size: 3vw; }
-
-    .hero-icons {
-        column-gap: 5vw;
-        bottom: 5%;
-    }
-    .hero-icons i { font-size: 4vw; }
-
-    //carousel
-    .carousel-inner { height: 25vh; }
-
-    .carousel-control-next-icon, .carousel-control-prev-icon {
-        width: 1rem !important;
-        height: 1rem !important;
-    }
-}
-
-@media (max-width: 600px) {
-    .carousel-control-prev, .carousel-control-next {
-        height: 100%;
-        width: 5vw !important;
-        border-radius: unset;
-        margin: 0;
-    }
-    .carousel-control-next-icon, .carousel-control-prev-icon {
-        width: 1rem !important;
-        height: 1rem !important;
-    }
-}
-
-
-@media (min-width: 1500px) {
-    .carousel-control-prev, .carousel-control-next {
-        height: 4vw;
-        width: 4vw !important;
-    }
-
-    .carousel-control-next-icon, .carousel-control-prev-icon {
-        width: 5rem !important;
-        height: 5rem !important;
-    }
-}*/

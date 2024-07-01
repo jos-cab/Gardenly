@@ -29,16 +29,3 @@
 .nav a:focus {
 	color: $hero-primary-color;
 }
-
-/* MQ
-.nav a:hover::after,
-.nav a:focus::after {
-	transform: scale(1);
-}
-
-
-.active-page:hover,
-.active-page:focus {
-	border: 3px solid $hero-primary-color;
-}
-*/

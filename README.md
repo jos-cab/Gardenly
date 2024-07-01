@@ -16,9 +16,14 @@ Text was made with AI and pictures were taken from unsplash
 
 - [ ] Make it responsive
 
+  - [x] Home page
+  - [x] Contact
+  - [ ] About
+  - [ ] Footer
+
 - [ ] Change legal info bar
 
-- [ ] Fix carousel
+- [x] Fix carousel
 
 - [ ] Adapt pages titles
 
