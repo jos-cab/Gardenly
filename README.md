@@ -25,6 +25,6 @@ Text was made with AI and pictures were taken from unsplash
 
 - [x] Fix carousel
 
-- [ ] Adapt pages titles
+- [x] Adapt pages titles
 
 - [ ] Fix captcha
