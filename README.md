@@ -21,8 +21,6 @@ Text was made with AI and pictures were taken from unsplash
   - [x] About
   - [x] Footer
 
-- [ ] Change legal info bar
-
 - [x] Fix carousel
 
 - [x] Adapt pages titles
