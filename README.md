@@ -19,7 +19,7 @@ Text was made with AI and pictures were taken from unsplash
   - [x] Home page
   - [x] Contact
   - [ ] About
-  - [ ] Footer
+  - [x] Footer
 
 - [ ] Change legal info bar
 
