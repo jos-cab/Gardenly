@@ -79,3 +79,9 @@
 		text-decoration: underline;
 	}
 }
+
+@media (orientation: portrait) {
+	.about-info:nth-child(3) {
+		flex-direction: row !important;
+	}
+}

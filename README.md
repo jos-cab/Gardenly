@@ -14,11 +14,11 @@ Text was made with AI and pictures were taken from unsplash
   - [x] Validation
   - [x] Implement captcha
 
-- [ ] Make it responsive
+- [x] Make it responsive
 
   - [x] Home page
   - [x] Contact
-  - [ ] About
+  - [x] About
   - [x] Footer
 
 - [ ] Change legal info bar
