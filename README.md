@@ -25,4 +25,4 @@ Text was made with AI and pictures were taken from unsplash
 
 - [x] Adapt pages titles
 
-- [ ] Fix captcha
+- [x] Fix captcha

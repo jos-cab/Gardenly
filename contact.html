@@ -6,6 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link href="sass/main.min.css" rel="stylesheet" />
 		<link rel="icon" href="https://img.icons8.com/doodle/48/000000/grass.png" />
+		<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 		<title>Gardenly | Contact</title>
 	</head>
 	<body>
@@ -20,7 +21,7 @@
 		</header>
 	</body>
 	<main>
-		<form id="contact-form" action="sent.html">
+		<form id="contact-form" action="sent.html" onsubmit="return validateForm()">
 			<h2>Send us a message</h2>
 
 			<label for="email" class="form-label">Email:</label> <br />
@@ -44,15 +45,18 @@
 				class="form-control"></textarea>
 			<br />
 
+			<div
+				class="g-recaptcha"
+				data-sitekey="6Lf_6gYqAAAAACspTxHV4VbsL90h-oYzUsjG8Rhp"></div>
+			<br />
+
 			<span id="error"></span>
 			<br />
 
 			<input
-				class="btn btn-light g-recaptcha"
+				class="btn btn-light"
 				type="submit"
 				name="submit"
-				data-sitekey="6LcSUPQpAAAAAKYRGPRzx4H1Dj_zcV5H5vnNeJv5"
-				data-callback="validateForm"
 				data-action="submit" />
 		</form>
 	</main>
@@ -112,5 +116,4 @@
 		</section>
 	</footer>
 	<script src="./scripts/form-validation.js"></script>
-	<script src="https://www.google.com/recaptcha/api.js"></script>
 </html>
