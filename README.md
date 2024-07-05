@@ -10,3 +10,5 @@ Text was made with AI and pictures were taken from unsplash
 
 - [ ] Add functionalities
   - [ ] dark theme
+- [ ] Change project description
+- [ ] Optimize loading speeds
