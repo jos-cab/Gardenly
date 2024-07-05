@@ -14,3 +14,4 @@ Demo: https://jos-cabrera.github.io/Gardenly/
   - [ ] dark theme
 - [ ] Change project description
 - [ ] Optimize loading speeds
+- [ ] Fix categories grid
