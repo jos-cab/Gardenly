@@ -1,37 +1,38 @@
+#plantsExamplesCarrousel {
+	margin: 150px 0 75px;
+	max-width: fit-content;
+}
+
 .carousel {
 	display: flex;
 	justify-content: center;
-}
+	width: fill-available;
 
-#plantsExamplesCarrousel {
-	margin: 150px 0 75px;
-	max-width: 100vw;
-}
+	&-inner {
+		height: 100%;
+		width: 100%;
+		max-height: $carousel-max-inner-height;
+	}
 
-.carousel-inner {
-	height: 100%;
-	width: 100%;
-	max-width: 95vw;
-	max-height: $carousel-max-inner-height;
-}
+	&-indicators {
+		backdrop-filter: brightness(50%);
+		margin: 0 !important;
+		width: fit-content;
+		left: 50% !important;
+		transform: translate(-50%, 150%);
+	}
 
-.carousel-indicators {
-	backdrop-filter: brightness(50%);
-	margin: 0 !important;
-	width: fit-content;
-	left: 50% !important;
-	transform: translate(-50%, 150%);
-}
+	&-item img {
+		width: unset !important;
 
-.carousel-item img {
-	width: unset !important;
-	transform: translate(-50%);
-}
+		transform: translate(-50%);
+	}
 
-.carousel-control-prev,
-.carousel-control-next {
-	backdrop-filter: brightness(0%);
-	width: $carousel-control-width;
+	&-control-prev,
+	&-control-next {
+		backdrop-filter: brightness(0%);
+		width: $carousel-control-width;
+	}
 }
 
 #plantsExamplesCarrousel,

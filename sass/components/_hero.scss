@@ -1,38 +1,46 @@
 .hero {
 	height: 100vh;
 	width: 100%;
-}
 
-.hero-text {
-	color: $hero-primary-color;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	text-align: center;
-}
+	&-text {
+		color: $hero-primary-color;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		text-align: center;
+	}
 
-.hero-image {
-	height: 100%;
-	background-image: url("../src/plants-hero.jpg");
-	background-size: cover;
-	background-position: center;
-	filter: brightness(60%);
-}
+	&-image {
+		height: 100%;
+		background-image: url("../src/plants-hero.jpg");
+		background-size: cover;
+		background-position: center;
+		filter: brightness(60%);
+	}
 
-.hero-icons {
-	width: 100%;
-	display: flex;
-	column-gap: 2vw;
-	justify-content: space-around;
-	position: absolute;
-	bottom: 15%;
-}
+	&-icons {
+		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+		column-gap: 2vw;
+		justify-content: space-around;
+		position: absolute;
+		bottom: 15%;
 
-.hero-icons a {
-	color: $hero-secondary-color;
-}
+		a {
+			color: $hero-secondary-color;
+			border: 3px solid transparent;
+			padding: 0.5em 1em;
 
-.hero-icons i {
-	font-size: 2em;
+			&:focus {
+				outline: none;
+				border-color: $hero-primary-color;
+			}
+		}
+
+		i {
+			font-size: 2em;
+		}
+	}
 }

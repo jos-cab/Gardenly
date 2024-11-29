@@ -3,28 +3,3 @@
 	display: grid;
 	grid-gap: 20px;
 }
-
-.card {
-	overflow: hidden;
-	max-height: 300px;
-}
-
-.card-img {
-	height: -webkit-fill-available;
-	width: max-content;
-	position: relative;
-	left: 50%;
-	top: 50%;
-	transform: translate(-50%, -50%);
-	transition: transform 0.3s ease-in-out;
-}
-
-.card-img-overlay {
-	background-color: #00000066;
-	color: #fff;
-	transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
-}
-
-.card-img-overlay p {
-	font-weight: 600;
-}
