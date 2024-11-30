@@ -1,0 +1,13 @@
+@mixin card-properties(
+	$grid-column-start,
+	$grid-column-end,
+	$grid-row-start,
+	$grid-row-end,
+	$max-height
+) {
+	grid-column-start: $grid-column-start;
+	grid-column-end: $grid-column-end;
+	grid-row-start: $grid-row-start;
+	grid-row-end: $grid-row-end;
+	max-height: $max-height;
+}

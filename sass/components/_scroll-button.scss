@@ -1,14 +1,16 @@
+@use "../abstracts/variables" as *;
+
 #ScrollTopButton {
-  display: none;
-  color: #000000;
-  z-index: 1000;
-  background-color: $extra;
-  width: 64px;
-  height: 64px;
-  padding: 16px;
-  position: fixed;
-  border-radius: 50%;
-  bottom: 10%;
-  right: 5%;
-  cursor: pointer;
+	display: none;
+	color: #000000;
+	z-index: 1000;
+	background-color: $extra;
+	width: 64px;
+	height: 64px;
+	padding: 16px;
+	position: fixed;
+	border-radius: 50%;
+	bottom: 10%;
+	right: 5%;
+	cursor: pointer;
 }

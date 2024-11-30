@@ -1,3 +1,6 @@
+@use "../abstracts/variables" as *;
+@use "../abstracts/mixins" as *;
+
 @media (orientation: landscape) {
 	.nav {
 		& a:hover::after,
@@ -45,27 +48,9 @@
 	#plantsExamplesCarrousel {
 		width: calc(100% - 2 * $carousel-control-width) !important;
 	}
-
-	.call-to-action .btn:hover {
-		text-decoration: underline;
-	}
 }
 
 @media (min-width: 768px) {
-	@mixin card-properties(
-		$grid-column-start,
-		$grid-column-end,
-		$grid-row-start,
-		$grid-row-end,
-		$max-height
-	) {
-		grid-column-start: $grid-column-start;
-		grid-column-end: $grid-column-end;
-		grid-row-start: $grid-row-start;
-		grid-row-end: $grid-row-end;
-		max-height: $max-height;
-	}
-
 	.categories {
 		max-width: 1024px;
 		grid-template-columns: repeat(6, 1fr);
@@ -76,7 +61,6 @@
 		&:nth-child(1) {
 			@include card-properties(1, 3, 1, 1, 300px);
 		}
-
 		&:nth-child(2) {
 			@include card-properties(3, 5, 1, 3, 400px);
 		}

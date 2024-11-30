@@ -1,3 +1,5 @@
+@use "../abstracts/variables" as *;
+
 .home-btn {
 	color: #000;
 	background-color: $hero-primary-color;

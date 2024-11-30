@@ -4,8 +4,16 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta
+			name="description"
+			content="At Gardenly, we provide personalized plant care, nurturing your green visions with expert attention. From vibrant tulips to lush ferns, we cultivate your plants with precision, ensuring they thrive. Track their growth in real-time from planting to delivery, and experience transparent, meticulous care that brings your botanical dreams to life."
+		/>
+
 		<link href="sass/main.min.css" rel="stylesheet" />
-		<link rel="icon" href="https://img.icons8.com/doodle/48/000000/grass.png" />
+		<link
+			rel="icon"
+			href="https://img.icons8.com/doodle/48/000000/grass.png"
+		/>
 		<title>Gardenly</title>
 	</head>
 	<body>
@@ -13,19 +21,25 @@
 			id="ScrollTopButton"
 			onclick="scrollTopDocument()"
 			viewBox="0 0 24 24"
-			fill="none">
+			fill="none"
+		>
 			<path
 				d="M17.6568 8.96219L16.2393 10.3731L12.9843 7.10285L12.9706 20.7079L10.9706 20.7059L10.9843 7.13806L7.75404 10.3532L6.34314 8.93572L12.0132 3.29211L17.6568 8.96219Z"
-				fill="currentColor" />
+				fill="currentColor"
+			/>
 		</svg>
 
 		<header>
 			<nav class="nav">
-				<a class="nav-link active-page" aria-current="page" href="index.html">
+				<a
+					class="nav-link active-page"
+					aria-current="page"
+					href="index.html"
+				>
 					Home
 				</a>
 				<a class="nav-link" href="contact.html">Contact</a>
-				<a class="nav-link" href="about.html">About Us</a>
+				<a class="nav-link" href="about-us.html">About Us</a>
 			</nav>
 		</header>
 		<main>
@@ -35,30 +49,41 @@
 				<div class="hero-text">
 					<h1>Gardenly</h1>
 					<p>
-						Bring the beauty of nature home and choose from a variety of flowers
-						and leaves
+						Bring the beauty of nature home and choose from a
+						variety of flowers and leaves
 					</p>
 				</div>
 				<div class="hero-icons">
 					<a
 						href="https://instagram.com"
 						rel="noopener noreferrer"
-						target="_blank">
+						target="_blank"
+						aria-label="Follow us on instagram"
+					>
 						<i class="bi bi-instagram"></i>
 					</a>
 					<a
 						href="https://facebook.com"
 						rel="noopener noreferrer"
-						target="_blank">
+						target="_blank"
+						aria-label="Follow us on facebook"
+					>
 						<i class="bi bi-facebook"> </i>
 					</a>
-					<a href="web.whatsapp.com" rel="noopener noreferrer" target="_blank">
+					<a
+						href="web.whatsapp.com"
+						rel="noopener noreferrer"
+						target="_blank"
+						aria-label="Message us on whatsapp"
+					>
 						<i class="bi bi-whatsapp"></i>
 					</a>
 					<a
 						href="https://youtube.com"
 						rel="noopener noreferrer"
-						target="_blank">
+						target="_blank"
+						aria-label="Watch us on youtube"
+					>
 						<i class="bi bi-youtube"></i>
 					</a>
 				</div>
@@ -74,52 +99,85 @@
 							data-bs-slide-to="0"
 							class="active"
 							aria-current="true"
-							aria-label="Slide 1"></button>
+							aria-label="Slide 1"
+						></button>
 						<button
 							type="button"
 							data-bs-target="#plantsExamplesCarrousel"
 							data-bs-slide-to="1"
-							aria-label="Slide 2"></button>
+							aria-label="Slide 2"
+						></button>
 						<button
 							type="button"
 							data-bs-target="#plantsExamplesCarrousel"
 							data-bs-slide-to="2"
-							aria-label="Slide 3"></button>
+							aria-label="Slide 3"
+						></button>
 						<button
 							type="button"
 							data-bs-target="#plantsExamplesCarrousel"
 							data-bs-slide-to="3"
-							aria-label="Slide 4"></button>
+							aria-label="Slide 4"
+						></button>
 					</div>
 					<div
-						class="carousel-inner d-flex justify-content-center align-items-center">
+						class="carousel-inner d-flex justify-content-center align-items-center"
+					>
 						<div class="carousel-item active">
-							<img src="src/carousel-01.jpg" class="d-block w-100" alt="..." />
+							<img
+								src="src/carousel-01.jpg"
+								class="d-block w-100 lazyload"
+								data-src="src/carousel-01.jpg"
+								alt="..."
+							/>
 						</div>
 						<div class="carousel-item">
-							<img src="src/carousel-02.jpg" class="d-block w-100" alt="..." />
+							<img
+								src="src/carousel-02.jpg"
+								class="d-block w-100 lazyload"
+								data-src="src/carousel-02.jpg"
+								alt="..."
+							/>
 						</div>
 						<div class="carousel-item">
-							<img src="src/carousel-03.jpg" class="d-block w-100" alt="..." />
+							<img
+								src="src/carousel-03.jpg"
+								class="d-block w-100 lazyload"
+								data-src="src/carousel-03.jpg"
+								alt="..."
+							/>
 						</div>
 						<div class="carousel-item">
-							<img src="src/carousel-04.jpg" class="d-block w-100" alt="..." />
+							<img
+								src="src/carousel-04.jpg"
+								class="d-block w-100 lazyload"
+								data-src="src/carousel-04.jpg"
+								alt="..."
+							/>
 						</div>
 					</div>
 					<button
 						class="carousel-control-prev"
 						type="button"
 						data-bs-target="#plantsExamplesCarrousel"
-						data-bs-slide="prev">
-						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						data-bs-slide="prev"
+					>
+						<span
+							class="carousel-control-prev-icon"
+							aria-hidden="true"
+						></span>
 						<span class="visually-hidden">Previous</span>
 					</button>
 					<button
 						class="carousel-control-next"
 						type="button"
 						data-bs-target="#plantsExamplesCarrousel"
-						data-bs-slide="next">
-						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						data-bs-slide="next"
+					>
+						<span
+							class="carousel-control-next-icon"
+							aria-hidden="true"
+						></span>
 						<span class="visually-hidden">Next</span>
 					</button>
 				</div>
@@ -130,22 +188,24 @@
 				<div class="card">
 					<img src="src/plant-01.jpg" class="card-img" alt="..." />
 					<div class="card-img-overlay">
-						<h5 class="card-title">Enhance Your Garden</h5>
+						<h3>Enhance Your Garden</h3>
 						<p class="card-text">
-							Elevate your outdoor oasis with our diverse range of plants. From
-							colorful blooms to lush foliage, find the perfect additions to
-							transform your garden into a vibrant paradise.
+							Elevate your outdoor oasis with our diverse range of
+							plants. From colorful blooms to lush foliage, find
+							the perfect additions to transform your garden into
+							a vibrant paradise.
 						</p>
 					</div>
 				</div>
 				<div class="card">
 					<img src="src/plant-02.jpg" class="card-img" alt="..." />
 					<div class="card-img-overlay">
-						<h5 class="card-title">Decorate with Nature</h5>
+						<h3>Decorate with Nature</h3>
 						<p class="card-text">
-							Add a touch of natural beauty to your space with our carefully
-							curated selection of plants. Whether you prefer elegant succulents
-							or cascading vines, discover the perfect green companions for your
+							Add a touch of natural beauty to your space with our
+							carefully curated selection of plants. Whether you
+							prefer elegant succulents or cascading vines,
+							discover the perfect green companions for your
 							décor.
 						</p>
 					</div>
@@ -153,33 +213,36 @@
 				<div class="card">
 					<img src="src/plant-03.jpg" class="card-img" alt="..." />
 					<div class="card-img-overlay">
-						<h5 class="card-title">Cultivate Cultural Diversity</h5>
+						<h3>Cultivate Cultural Diversity</h3>
 						<p class="card-text">
-							Explore plants from around the world and celebrate diverse
-							botanical traditions. Discover species that resonate with your
-							heritage or introduce new botanical wonders to your home.
+							Explore plants from around the world and celebrate
+							diverse botanical traditions. Discover species that
+							resonate with your heritage or introduce new
+							botanical wonders to your home.
 						</p>
 					</div>
 				</div>
 				<div class="card">
 					<img src="src/plant-04.jpg" class="card-img" alt="..." />
 					<div class="card-img-overlay">
-						<h5 class="card-title">Bring Nature Indoors</h5>
+						<h3>Bring Nature Indoors</h3>
 						<p class="card-text">
-							Create a green sanctuary within your home with our indoor plant
-							collection. From low-maintenance options to statement pieces, find
-							the ideal plants to thrive in any indoor environment.
+							Create a green sanctuary within your home with our
+							indoor plant collection. From low-maintenance
+							options to statement pieces, find the ideal plants
+							to thrive in any indoor environment.
 						</p>
 					</div>
 				</div>
 				<div class="card">
 					<img src="src/plant-05.jpg" class="card-img" alt="..." />
 					<div class="card-img-overlay">
-						<h5 class="card-title">Unleash Your Botanical Curiosity</h5>
+						<h3>Unleash Your Botanical Curiosity</h3>
 						<p class="card-text">
-							Embark on a journey of discovery with our exotic plant collection.
-							From rare species to unique hybrids, satisfy your adventurous
-							spirit and add a touch of intrigue to your plant collection.
+							Embark on a journey of discovery with our exotic
+							plant collection. From rare species to unique
+							hybrids, satisfy your adventurous spirit and add a
+							touch of intrigue to your plant collection.
 						</p>
 					</div>
 				</div>
@@ -192,16 +255,20 @@
 					<div class="col">
 						<h2>We care about each one</h2>
 						<p>
-							At Gardenly, our commitment to plant care means each green
-							companion is nurtured to perfection, ensuring they thrive in your
-							home.
+							At Gardenly, our commitment to plant care means each
+							green companion is nurtured to perfection, ensuring
+							they thrive in your home.
 						</p>
 						<p>
-							Find your perfect plant and bring home a piece of our dedication
-							today.
+							Find your perfect plant and bring home a piece of
+							our dedication today.
 						</p>
-						<button type="button" class="btn btn-primary">Order</button>
-						<button type="button" class="btn btn-secondary">Learn More</button>
+						<button type="button" class="btn btn-primary">
+							Order
+						</button>
+						<a class="btn btn-secondary" href="about-us.html"
+							>Learn More</a
+						>
 					</div>
 				</div>
 			</section>
@@ -214,14 +281,16 @@
 					<a
 						href="tel:+00 000 0000-0000"
 						rel="noopener noreferrer"
-						target="_blank">
+						target="_blank"
+					>
 						+00 000 0000-0000
 					</a>
 					<br />
 					<a
 						href="mailto:example@gmail.com"
 						rel="noopener noreferrer"
-						target="_blank">
+						target="_blank"
+					>
 						email
 					</a>
 				</section>
@@ -231,32 +300,36 @@
 						<a
 							href="https://instagram.com"
 							rel="noopener noreferrer"
-							target="_blank">
+							target="_blank"
+						>
 							<i class="bi bi-instagram"></i>
 						</a>
 						<a
 							href="https://facebook.com"
 							rel="noopener noreferrer"
-							target="_blank">
+							target="_blank"
+						>
 							<i class="bi bi-facebook"></i>
 						</a>
 						<a
 							href="https://web.whatsapp.com"
 							rel="noopener noreferrer"
-							target="_blank">
+							target="_blank"
+						>
 							<i class="bi bi-whatsapp"></i>
 						</a>
 						<a
 							href="https://youtube.com"
 							rel="noopener noreferrer"
-							target="_blank">
+							target="_blank"
+						>
 							<i class="bi bi-youtube"></i>
 						</a>
 					</div>
 				</section>
 				<section class="col-md">
 					<h3>About</h3>
-					<a href="about.html">Who we are?</a>
+					<a href="about-us.html">Who we are?</a>
 				</section>
 			</div>
 			<section class="legal-info">
